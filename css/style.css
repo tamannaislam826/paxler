@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    body{ 
+        font-family: 'Source Sans Pro', sans-serif; */
+    }
+   
+   .feature{
+       
+   }
+   .heading{
+   
+   }
+   .heading p{
+   
+   }
+   .heading h1{
+       position: relative;
+   
+   }
+   
+   .heading h1::before{
+       content: '';
+       position: absolute;
+       height: 3px;
+       width: 0px;
+       left: 44%;
+       /* transform: translateX(-45%); */
+       bottom: 0;
+    
+       background: red;
+       transition: .4s all ease-in-out;
+   
+   }
+   .heading h1::after{
+       content: '';
+       position: absolute;
+       height: 3px;
+       width: 0px;
+       right: 44%;
+       /* transform: translateX(48%); */
+       background: red;
+       bottom: 0;
+       transition: .4s all ease-in-out; */
+   }
+   .feature:hover .heading h1::after{
+       width: 30px;
+   
+   }
+   .feature:hover .heading h1::before{
+       width: 30px;
+   }
+   .icon{
+       height: 70px;
+       width: 70px;
+       border: 1px solid black;
+       border-radius: 50%;
+       text-align: center;
+       line-height: 70px;
+       margin: auto;
+   }
+   .feature-content p,.heading-two p{
+       text-transform: capitalize;
+       font-size: 14px;
+   
+   }
+   .feature-content h1,.heading-two h1{
+       text-transform: capitalize;
+       font-size: 30px;
+       
+   
+   }
+   .heading-two h1{
+       position: relative;
+   }
+   .heading-two h1{
+   
+   }
+   .heading-two p{
+   
+   }
+   .heading-two h1::before{
+   
+   content: '';
+   
+   position: absolute;
+   
+   height: 3px;
+   
+   width: 0px;
+   
+   left: 1%;
+   
+   /* transform: translateX(-45%); */
+   
+   bottom: 0;
+   
+   background: red;
+   
+   transition: .4s all ease-in-out;
+   }
+   
+   .heading-two h1::after{
+       content: '';
+       position: absolute;
+       height: 3px;
+       width: 0px;
+       right: 84%;
+       /* transform: translateX(48%); */
+       background: red;
+       bottom: 0;
+       transition: .4s all ease-in-out; */
+   }
+   .device{
+
+   }
+   .device:hover .heading-two h1::before{
+       width: 30px;
+
+   }
+   .device:hover .heading-two h1::after{
+       width: 30px;
+   }
